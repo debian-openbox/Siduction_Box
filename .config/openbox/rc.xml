@@ -504,6 +504,12 @@
     <!-- Set this to TRUE to move the mouse pointer across the desktop when
        switching due to hitting the edge of the screen -->
     <context name="Frame">
+      <mousebind action="Press" button="C-Left">
+        <action name="UnmaximizeFull"/>
+        <action name="Execute">
+          <command>clicksnap</command>
+        </action>
+      </mousebind>           
       <mousebind button="A-Left" action="Press">
         <action name="Focus"/>
         <action name="Raise"/>
