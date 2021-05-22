@@ -9,8 +9,6 @@
 1. Na pitanje koje Grafičko okruženje da se instalira (_Tasksel_), od više ponuđenih (_KDE_,_LXDE_,..._Debian default_),  
  ne izabrati ni jedno i čak odčekirati sve osim _SSH_ i _default utillity_
 1. Posle instalacije i restarta, butuje se u konzolu (_TTY_), gde unosimo username i password
-1. Dodamo `contrib` i `non-free` u `/etc/apt/sources.list`  
-   `sudo geany /etc/apt/sources.list`   
 1. ažuriranje softvera  
 _` sudo apt update && sudo apt full-upgrade`_
 1. instaliranje git-a  
