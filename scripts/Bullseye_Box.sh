@@ -14,9 +14,9 @@ find ~/Bullseye_Box -type f -exec chmod 755 {} \;
 
 #sudo apt-get install -y software-properties-common && sudo apt-add-repository contrib && sudo apt-add-repository non-free
 cd ~/Bullseye_Box/scripts
-sudo ./non-free.sh
+# sudo ./non-free.sh
 
-# sudo apt-get update
+sudo apt-get update
 
 sudo apt install -y xorg lightdm openbox obconf tint2 lxappearance menu bleachbit mpd ncmpcpp geany synaptic doublecmd-common terminator rxvt-unicode ranger 
 sudo apt install -y ttf-mscorefonts-installer qbittorrent --no-install-recommends
