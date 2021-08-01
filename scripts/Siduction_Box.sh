@@ -168,6 +168,6 @@ cd ~/Siduction_Box/scripts/install_vim/
 sudo ./install.sh
 
 #sudo chown -R $(logname):$(logname) /home/$(logname)/
-#find /home/$(logname) -name '.*' | xargs sudo chown $(logname):$(logname)
-#find /home/$(logname) -type f | xargs sudo chmod 700
+find /home/$(logname) -name '.*' | xargs sudo chown $(logname):$(logname)
+find /home/$(logname) -type f | xargs sudo chmod 755
 
